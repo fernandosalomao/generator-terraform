@@ -1,6 +1,9 @@
 node_modules/
 bower_components/
+package-lock.json
+
+# Log files
 *.log
 
-build/
-dist/
+# Mac's folder attribute file.
+.DS_Store
