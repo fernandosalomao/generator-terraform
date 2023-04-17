@@ -1,16 +1,16 @@
 {
   "name": "generator-terraform",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Scaffolding for Terraform",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fernandosalomao/generator-terraform.git"
+    "url": "https://github.com/fernandosalomao/generator-terraform.git"
   },
-  "author": "Fernando Salomao",
+  "author": {
+    "name": "Fernando Salomao",
+    "url": "https://github.com/fernandosalomao",
+    "email": "fernando@fernandosalomao.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fernandosalomao/generator-terraform/issues"
@@ -27,5 +27,8 @@
     "terraform scaffold",
     "terraform boilerplate",
     "scaffold"
+  ],
+  "files": [
+    "generators"
   ]
 }
