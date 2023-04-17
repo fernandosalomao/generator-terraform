@@ -15,11 +15,11 @@ module.exports = class extends Generator {
 
     this.fs.copyTpl(
       this.templatePath('.gitattributesfile'),
-      this.destinationPath('.gitattributesfile')
+      this.destinationPath('.gitattributes')
     );
 
     this.fs.copyTpl(
-      this.templatePath('.gitignore'),
+      this.templatePath('.gitignorefile'),
       this.destinationPath('.gitignore')
     );
 
