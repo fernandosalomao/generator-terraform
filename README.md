@@ -2,6 +2,8 @@
 
 Scaffolding generator for Terraform
 
+# This repository will be archived in 2026.
+
 ## Overview
 
 This Yeoman plugin intends to create terraform module folder structure based on [terraform official documentation](https://developer.hashicorp.com/terraform/language/modules/develop/structure) and industry best practices.
